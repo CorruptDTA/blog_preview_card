@@ -27,12 +27,52 @@ body {
 
 .frame {
     display: flex;
-    height: 300px;
-    width: 300px;
+    flex-direction: column;
+    height: 522px;
+    width: 384px;
     background-color: var(--white);
     border: 1px solid var(--gray-950);
     border-radius: 20px;
-    justify-content: center;
+    padding: var(--spacing-300);
+    gap: var(--spacing-300)
+}
+
+.frame * {
+    margin: 0;
+}
+
+.article_image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.article_info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-150)
+}
+
+.label_group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-100)
+}
+
+.label_group * {
+    margin: 0px;
+    width: fit-content;
+    padding: var(--spacing-50) var(--spacing-150) var(--spacing-50) var(--spacing-150);
+    border-radius: var(--spacing-50);
+}
+
+.label_learning {
+    background-color: var(--yellow);
+}
+
+.author_group {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-150)
 }
 
 .typo1 {
