@@ -1,0 +1,71 @@
+:root {
+    /* Colors */
+    --yellow: #f4d04e;
+    --gray-950: #111111;
+    --gray-500: #6b6b6b;
+    --white: #ffff;
+
+    --font-family: 'Figtree', 'Arial';
+    
+    /* Spacings */
+    --spacing-300: 24px;
+    --spacing-150: 12px;
+    --spacing-100: 8px;
+    --spacing-50: 4px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--yellow);
+}
+
+.frame {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: var(--white);
+    border: 1px solid var(--gray-950);
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.typo1 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.typo2 {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.typo3 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.typo3-bold {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
